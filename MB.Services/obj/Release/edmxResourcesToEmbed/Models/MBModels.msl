@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MBModelStoreContainer" CdmEntityContainer="MBEntities">
+    <EntitySetMapping Name="areas">
+      <EntityTypeMapping TypeName="MBModel.area">
+        <MappingFragment StoreEntitySet="area">
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+          <ScalarProperty Name="area_name" ColumnName="area_name" />
+          <ScalarProperty Name="is_site" ColumnName="is_site" />
+          <ScalarProperty Name="pinyin" ColumnName="pinyin" />
+          <ScalarProperty Name="pinyin_initials" ColumnName="pinyin_initials" />
+          <ScalarProperty Name="father_area_id" ColumnName="father_area_id" />
+          <ScalarProperty Name="father_area_info" ColumnName="father_area_info" />
+          <ScalarProperty Name="area_type" ColumnName="area_type" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="is_add_circle" ColumnName="is_add_circle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="~/Static/lib/Jquery/jquery.min.js"></script>
+<div class="jumbotron">
+    <h1>@ViewBag.tt</h1>
+  
+    <div id="ll"  onclick="bb()"  style="height:100px;width:100%;background-color:red">
+
+
+
+    </div>
+
+</div>
+
+<script>
+    function bb()
+    {
+        var tou = "huishenghuise   is  key ";
+        var dom = '<div class="ques_sum" id="ques_sum2" style="display: block;"><p class="sumTitle" style="margin-bottom: 15px; line-height: 42.1875px; font-size: 28.125px;">2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)2.来吧(多选，可上滑)</p>' +
+                  '<div id="yy" class="starsBox" style="height: 160px;">' +
+                  '<p class="star" style="line-height: 42.1875px; font-size: 28.125px;"><label><input type="checkbox" onclick="chk(this)" value="378|358" name="answer2" style="height: 29.2969px; width: 29.2969px; margin-right: 15.2344px;">我不敢</label></p>' +
+                  '<p class="star" style="line-height: 42.1875px; font-size: 28.125px;"><label><input type="checkbox" onclick="chk(this)" value="378|358" name="answer2" style="height: 29.2969px; width: 29.2969px; margin-right: 15.2344px;">你是谁</label></p>' +
+                  '<p class="star" style="line-height: 42.1875px; font-size: 28.125px;"><label><input type="checkbox" onclick="chk(this)" value="378|358" name="answer2" style="height: 29.2969px; width: 29.2969px; margin-right: 15.2344px;">白天的天</label></p>' +
+                  '<p class="star" style="line-height: 42.1875px; font-size: 28.125px;"><label><input type="checkbox" onclick="chk(this)" value="378|358" name="answer2" style="height: 29.2969px; width: 29.2969px; margin-right: 15.2344px;">黑夜的黑</label></p>' +
+                  '</div></div>';
+
+
+        
+        var  tt="77";
+        $("#ll").html(dom);
+        debugger
+        var he = $("#ques_sum2  p");
+        var e = 0;
+        for (var i = 0 ; i < he.length;i++)
+        {
+            var oo = he[i].offsetHeight;
+            e += oo;
+        }
+
+        $("#yy")[0].offsetHeight=e;
+        $("#yy").height(800);
+       
+
+    }
+
+
+</script>
+

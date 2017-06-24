@@ -1,0 +1,56 @@
+﻿<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>demo页面</title>
+    <link rel="stylesheet" href="~/Static/css/weixin_test.css"/>
+    <script src="~/Static/lib/common/hotcss.js"></script>
+</head>
+<body>
+<div id="app">
+    {{ message }}
+</div>
+ 
+    <div class="btn_01 warning">分享到朋友圈(右上角菜单)</div>
+    <div class="btn_01 warning">分享给朋友(右上角菜单)</div>
+    <div class="btn_01 warning">分享到QQ(右上角菜单)</div>
+    <div class="btn_01 warning">分享到腾讯微博(右上角菜单)</div>
+    <div class="btn_01 warning"  onclick="weixinapi.onMenuShareQQ()">分享到QQ空间(右上角菜单)</div>
+    <div class="btn_01" onclick="weixinapi.scanQRCode()">微信扫一扫</div>
+
+    <div class="btn_01" onclick="weixinapi.chooseImage()">拍照/手机中选图</div>
+    <div class="btn_01" onclick="weixinapi.getNetworkType()">获取网络状态</div>
+    <div class="btn_01" onclick="weixinapi.getLocation()">获取地理位置</div>
+    <div class="btn_01" onclick="weixinapi.openLocation()">使用内置地图查看位置</div>
+    <div class="btn_01 error" onclick="weixinapi.closeWindow()">关闭当前网页窗口</div>
+
+    <div class="btn_01" onclick="weixinapi.hideMenuItems()">批量隐藏功能按钮</div>
+    <div class="btn_01" onclick="weixinapi.showMenuItems()">批量显示功能按钮</div>
+    <div class="btn_01" onclick="weixinapi.hideAllNonBaseMenuItem()">隐藏所有非基础按钮</div>
+    <div class="btn_01" onclick="weixinapi.showAllNonBaseMenuItem()">显示所有功能按钮</div>
+
+
+    @*
+        <div class="btn_01" onclick="weixinapi.scanQRCode()">隐藏右上角菜单</div>
+        <div class="btn_01" onclick="weixinapi.scanQRCode()">显示右上角菜单</div>
+        <div class="btn_01">预览图片</div>
+        <div class="btn_01">上传图片</div>
+        <div class="btn_01">下载图片</div>
+        <div class="btn_01">获取本地图片</div>
+        <div class="btn_01">开启查找周边ibeacon设备</div>
+        <div class="btn_01">关闭查找周边ibeacon设备</div>
+        <div class="btn_01">监听周边ibeacon设备</div>
+        <div class="btn_01">跳转微信商品页</div>
+        <div class="btn_01">获取api_ticket</div>
+        <div class="btn_01">拉取适用卡券获取用户信息</div>
+        <div class="btn_01">批量添加卡券</div>
+        <div class="btn_01">查看微信卡包中的卡券</div>
+        <div class="btn_01">发起一个微信支付请求</div>*@
+
+    <script src="~/Static/js/common/weixin.js"></script>
+<script src="http://res.weixinapi.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script src="~/Static/lib/Vue/vue.min.js"></script>
+<script src="~/Static/lib/Vue/vue-resource.min.js"></script>
+<script src="~/Static/js/common/weixin_init.js"></script>
+<script src="~/Static/js/controlles/weixincontrolles.js"></script>
+</body>
+</html>
