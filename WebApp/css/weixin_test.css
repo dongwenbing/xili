@@ -1,0 +1,9 @@
+﻿body {width: 16rem;margin: 0 auto;padding: 0; }
+
+.btn_01{width: 70%; height: 1.5rem;margin: 1rem auto 1rem auto;background-color: #33aa33;border-radius: 0.2rem;text-align: center;font-size: 0.75rem;line-height:1.5rem;color: #ffffff;overflow:hidden;}
+.btn_01:active{background-color: #298b29;}
+.warning{background-color:#ff6a00}
+.warning:active{background-color:#d45e0c}
+.error{background-color:#F33723}
+.error:active{background-color:#c12626}
+.sucess{background-color:#33aa33}

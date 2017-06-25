@@ -1,0 +1,5 @@
+.pc-body{width:100%;height:100%;text-align:center;position:fixed;top:0;left:0;right:0;bottom:0;background-color: rgba(0,0,0,0.45);}
+.pc-alert-box{width:700px;margin:0 auto; background-color:#fff;position:relative;margin-top:20%;padding: 10px;border-radius:5px;font-size: 16px;line-height: 35px;}
+.pc-alert-box span{font-size: 12px;}
+.pc-alert-box .closebutton{margin-top:20px; width:120px;height:30px;line-height: 30px;text-align: center;color:#e3337e;border:  solid 1px #e3337e;border-radius:4px;margin:0 auto;}
+.pc-alert-box .closebutton:ACTIVE {margin-top:20px; width:120px;height:30px;line-height: 30px;text-align: center;color:#fff;border-radius:4px;margin:0 auto;background-color: #e3337e;}ccccccccccd
