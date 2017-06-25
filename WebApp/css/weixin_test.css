@@ -7,3 +7,10 @@
 .error{background-color:#F33723}
 .error:active{background-color:#c12626}
 .sucess{background-color:#33aa33}
+
+.userinfo-body{background-color: #eaeaea;}
+.userinfo-titlebox{width: 100%;text-align: center;height: 1rem;line-height: 1rem;background-color: #fff;}
+.userinfo-body  conbox{}
+
+.userinfo-buttom{width: 100%;text-align: center;height: 1.5rem;line-height: 1.5rem;position: fixed;bottom: 0;z-index: 2;}
+.userinfo-buttom ul{padding: 0.2rem;box-shadow: 3 -3 3 #298b29}
